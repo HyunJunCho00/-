@@ -5,7 +5,7 @@
 Decrypt the ciphertext into plaintext using a monoalphabetic cipher by applying letter frequency analysis and n-grams. The goal is to find the decryption key to convert the ciphertext into readable plaintext. The ciphertext consists of a simple substitution cipher, and decryption is performed using letter frequency analysis along with n-gram analysis.
 
 
-##Description about my implemented Code
+### Description about my implemented Code
 
 This program implements an algorithm to decrypt a monoalphabetic substitution cipher. The main steps include reading the ciphertext, calculating letter frequencies, and decrypting it through a substitution method. The core of the algorithm uses a hill climbing technique called steepest ascent, which starts with a random key and gradually improves to find a better solution.
 
